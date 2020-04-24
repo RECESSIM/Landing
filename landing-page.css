@@ -25,7 +25,7 @@ a {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/shortloop.mp4") no-repeat center center;
+  background: url("../img/ShortLoop.mp4") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -99,9 +99,6 @@ hr {
     @media (pointer: coarse) and (hover: none) {
       header {
         background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-      }
-      header video {
-        display: none;
       }
     }
 
