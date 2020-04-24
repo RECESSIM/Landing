@@ -21,7 +21,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/shortloop.mp4") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -36,6 +36,15 @@ header.masthead .overlay {
   left: 0;
   opacity: 0.3;
 }
+
+.navbar-brand img{
+  max-width: 200px;
+}
+
+.navbar{
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.07);}
+
 
 header.masthead h1 {
   font-size: 2rem;
