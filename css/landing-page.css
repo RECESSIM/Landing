@@ -18,6 +18,10 @@ h6 {
   font-weight: 700;
 }
 
+a {
+  color: #DA2E28;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -45,20 +49,61 @@ header.masthead .overlay {
     border-bottom: 1px solid #e6e6e6;
     box-shadow: 0 2px 4px rgba(0,0,0,0.07);}
 
-
-header.masthead h1 {
-  font-size: 2rem;
+hr {
+  margin-top:50px;
+  margin-left:40px;
+  margin-right:40px;
+  color: #E0E0E0;
 }
 
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
+    header {
+      position: relative;
+      background-color: black;
+      height: 75vh;
+      min-height: 25rem;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    header video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    header .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: 0.5;
+      z-index: 1;
+    }
+
+    @media (pointer: coarse) and (hover: none) {
+      header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+      }
+      header video {
+        display: none;
+      }
+    }
 
 .showcase .showcase-text {
   padding: 3rem;
@@ -76,7 +121,7 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
+  padding-top: 2rem;
   padding-bottom: 7rem;
 }
 
