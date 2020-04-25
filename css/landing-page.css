@@ -13,7 +13,7 @@ a {
 header.masthead {
 	position: relative;
 	background-color: transparent;
-	background: url("../img/ShortLoop.mp4") no-repeat center center;
+	background: url("../img/media/video-1.mp4") no-repeat center center;
 	background-size: cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
@@ -118,12 +118,16 @@ header .overlay {
 	z-index: 1;
 }
 
+.mb-5, .my-5 {
+  margin-bottom:0!important;
+}
+
 .w-100{
     text-align: center;
 }
 @media (pointer: coarse) and (hover: none) {
 	header {
-		background: url("../img/ShortLoop.mp4") no-repeat center center;
+		background: url("../img/media/video-1.mp4") no-repeat center center;
 	}
 }
 .showcase .showcase-text {
@@ -139,9 +143,14 @@ header .overlay {
 	}
 }
 
-@media (max-width: 600px){
-  .btn{
-    margin-top:none;
+@media (max-width: 400px){
+
+  .logo img {
+    width: 90%;
+    padding-bottom: 13px;
+  }
+  .btn {
+    margin-bottom: 30px;
   }
 }
 .features-icons {
