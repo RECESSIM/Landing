@@ -1,10 +1,10 @@
 const videosList = [
   {
-    src: 'https://github.com/RECESSIM/Landing/blob/master/img/Power%20Supply_Blurry%20LEDs.mp4?raw=true',
+    src: 'https://github.com/RECESSIM/Landing/blob/gh-pages/img/ShortLoop.mp4?raw=true',
     type: 'video/mp4',
   },
   {
-    src: 'https://github.com/headphonestatic/Landing/blob/master/img/media/video-1.mp4?raw=true',
+    src: 'https://github.com/RECESSIM/Landing/blob/gh-pages/img/ShortLoop2.mp4?raw=true',
     type: 'video/mp4',
   }
 ];
