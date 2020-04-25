@@ -26,12 +26,41 @@ header.masthead .overlay {
 	left: 0;
 /*	opacity: 0.3;*/
 }
-.navbar-brand img{
-	max-width: 200px;
+.logo img{
+  width: 100%;
+  max-width: 625px;
+  min-width: 300px;
+  height: auto;
+  padding-bottom: 35px;
 }
 .navbar{
   z-index: 1000;
   background: transparent;
+}
+
+.btn{
+  background-color: #DA2E28;
+  border-color: white;
+  color: white;
+  border-radius: 0;
+  font-size: 14px;
+  margin-top: 2em;
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: white;
+  color: #DA2e28;
+}
+
+.red{
+  background-color: #DA2E28;
+  color: white;
+  border-top: solid 1px white;
+}
+
+.red p{
+  font-size: 15px;
 }
 
 a.nav-link {
@@ -90,7 +119,6 @@ header .overlay {
 
 .w-100{
     text-align: center;
-    max-width: 50%;
 }
 @media (pointer: coarse) and (hover: none) {
 	header {
@@ -108,6 +136,12 @@ header .overlay {
 	.showcase .showcase-text {
 		padding: 7rem;
 	}
+}
+
+@media (max-width: 600px){
+  .btn{
+    margin-top:none;
+  }
 }
 .features-icons {
 	padding-top: 2rem;
