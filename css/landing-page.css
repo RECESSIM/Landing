@@ -22,14 +22,6 @@ a:hover{
 		border:none!important;
     background: #DC2D27;}
 
-header.masthead {
-	position: relative;
-	background-color: transparent;
-	background-size: cover;
-	padding-top: 8rem;
-	padding-bottom: 8rem;
-}
-
 header.masthead .overlay {
 	position: absolute;
 	/*background-color: #212529;*/
@@ -53,9 +45,8 @@ video {
 }
 .navbar {
 	background-color:#0000005e;
-	border-top: solid 1px white;
-}
 
+}
 
 .navbar-nav{
 	width: 100%;
@@ -65,12 +56,16 @@ video {
 	padding-left: 15px;
 	padding-right: 15px;
 	text-align: left;
-	
 }
 .navbar-nav li:hover{
-	color:white;
-	text-decoration: underline;
+	color: white;
+	background-color: black;
 }
+
+.navbar-toggler {
+	border-color: white;
+}
+
 
 header {
 	position: relative;
