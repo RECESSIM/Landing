@@ -1,22 +1,27 @@
 /*!* Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)* Copyright 2013-2019 Start Bootstrap* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)*/
 body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #DA2E28!important;
+  background-color: black!important;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 }
-a {
-	color: #DA2E28;
+
+a:hover{
+	color:white!important;
 }
-header.masthead {
-	position: relative;
-	background-color: transparent;
-	background-size: cover;
-	padding-top: 8rem;
-	padding-bottom: 8rem;
-}
+
+.border {
+	  position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1em;
+		border:none!important;
+    background: #DC2D27;}
+
 header.masthead .overlay {
 	position: absolute;
 	/*background-color: #212529;*/
@@ -30,57 +35,38 @@ video {
   width: 800px;
   height: 600px;
 }
-.logo img{
-  width: 100%;
-  max-width: 625px;
-  min-width: 300px;
-  height: auto;
-  padding-bottom: 35px;
+.navbar-light .navbar-brand{
+	color: white;
 }
-.navbar{
-  z-index: 1000;
-  background: transparent;
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+}
+.navbar {
+	background-color:#0000005e;
+
 }
 
-.btn{
-  background-color: #DA2E28;
-  border-color: white;
-  color: white;
-  border-radius: 0;
-  font-size: 14px;
-  margin-top: 2em;
+.navbar-nav{
+	width: 100%;
+  text-align: center;
+}
+.navbar-nav li{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+.navbar-nav li:hover{
+	color: white;
+	background-color: black;
 }
 
-.btn:hover {
-  background-color: white;
-  border-color: white;
-  color: #DA2e28;
+.navbar-toggler {
+	border-color: white;
 }
 
-.red{
-  background-color: #DA2E28;
-  color: white;
-  border-top: solid 1px white;
-}
 
-.red p{
-  font-size: 15px;
-}
-
-a.nav-link {
-color:white!important;
-}
-
-a.nav-link .active{
-color: red!important;
-}
-
-hr {
-	margin-top:50px;
-	margin-left:40px;
-	margin-right:40px;
-	color: #E0E0E0;
-}
 header {
 	position: relative;
 	background-color: black;
@@ -90,7 +76,7 @@ header {
 	overflow: hidden;
 }
 header video {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	min-width: 100%;
@@ -127,80 +113,4 @@ header .overlay {
 
 .w-100{
     text-align: center;
-}
-@media (pointer: coarse) and (hover: none) {
-	header {
-
-	}
-}
-.showcase .showcase-text {
-	padding: 3rem;
-}
-.showcase .showcase-img {
-	min-height: 30rem;
-	background-size: cover;
-}
-@media (min-width: 768px) {
-	.showcase .showcase-text {
-		padding: 7rem;
-	}
-}
-
-@media (max-width: 400px){
-
-  .logo img {
-    width: 90%;
-    padding-bottom: 13px;
-  }
-  .btn {
-    margin-bottom: 30px;
-  }
-}
-.features-icons {
-	padding-top: 2rem;
-	padding-bottom: 7rem;
-}
-.features-icons .features-icons-item {
-	max-width: 20rem;
-}
-.features-icons .features-icons-item .features-icons-icon {
-	height: 7rem;
-}
-.features-icons .features-icons-item .features-icons-icon i {
-	font-size: 4.5rem;
-}
-.features-icons .features-icons-item:hover .features-icons-icon i {
-	font-size: 5rem;
-}
-.testimonials {
-	padding-top: 7rem;
-	padding-bottom: 7rem;
-}
-.testimonials .testimonial-item {
-	max-width: 18rem;
-}
-.testimonials .testimonial-item img {
-	max-width: 12rem;
-	box-shadow: 0px 5px 5px 0px #adb5bd;
-}
-.call-to-action {
-	position: relative;
-	background-color: #343a40;
-	background: url("../img/bg-masthead.jpg") no-repeat center center;
-	background-size: cover;
-	padding-top: 7rem;
-	padding-bottom: 7rem;
-}
-.call-to-action .overlay {
-	position: absolute;
-	background-color: #212529;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	opacity: 0.3;
-}
-footer.footer {
-	padding-top: 4rem;
-	padding-bottom: 4rem;
 }

@@ -26,141 +26,41 @@
   <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
 
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+
+
 
 </head>
 
-<body>
+<body> <div id="overlay"></div>
   <header>
-<!-- <div class="overlay"></div>-->
-  <!-- Navigation
-  <nav class="navbar navbar-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"></a>
-        <nav class=" navbar-expand-lg">
-  <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="http://wiki.recessim.com/view/Main_Page">WIKI <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="https://forum.recessim.com/">FORUM <span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-  </div>
-  </div>
-</nav>
-  </nav>
--->
-  <!-- Masthead -->
-
-  <video id="myVideo" playsinline autoplay muted loop>
-
-  </video>
+  <video id="myVideo" playsinline autoplay muted loop></video>
     <div class="container h-100">
-<!--      <div class="<d-flex h-100 text-center align-items-center"> -->
         <div class="w-100 text-white logo">
           <img src="img/whitelogo.svg">
           <p class="lead mb-0">A community for Reverse Engineers</p>
         </div>
-      </div>
     </div>
   </header>
-
-  <!-- Site Description
-  <section class="text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg">
-          <div class="mx-auto mb-5 mb-lg-0 mb-lg-1">
-            <p class="lead mb-0">
-They say it’s what’s inside that counts. Do you know what’s inside all the devices that make your life enjoyable? RECESSIM is a community of Reverse Engineers devoted to finding out, join us.</p>
-            <a href="http://wiki.recessim.com/view/Main_Page">- Hash</a>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-bottom" id="mainNav">
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">AMATEUR RADIO</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">AUTOMOTIVE</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">ENTERTAINMENT</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">INDUSTRIAL</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">WEARABLE</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">FORUM</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>-->
+    </nav>
+  <!--  <div class="border" id="home"></div>-->
 
-
-  <!-- Icons Grid -->
-  <section class="features-icons text-center red">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-6">
-            <h3>Share your passion </h3>
-            <p class="lead mb-0">Show the community what you are working on by creating an entry on the wiki. Help others reverse engineer, you can edit and share your knowledge.</p>
-          </div>
-          <a href="http://wiki.recessim.com/view/Main_Page"><button type="button" class="btn">VISIT THE WIKI</button></a>
-        </div>
-        <div class="col-lg-6">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-6">
-            <h3>Learn from others</h3>
-            <p class="lead mb-0">Or help others learn, the goal is to advance our collective knowledge by creating a community of the best reverse engineers.</p>
-          </div>
-          <a href="https://forum.recessim.com/">  <button type="button" class="btn">VISIT THE FORUM</button></a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-  <!-- Footer
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>-->
-
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
