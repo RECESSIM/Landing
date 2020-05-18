@@ -8,46 +8,14 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 700;
 }
 
-a:hover{
-	color:white!important;
-}
-
-.border {
-	  position: absolute;
-    z-index: 2;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 1em;
-		border:none!important;
-    background: #DC2D27;}
-
-header.masthead .overlay {
-	position: absolute;
-	/*background-color: #212529;*/
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-/*	opacity: 0.3;*/
-}
 video {
   width: 800px;
   height: 600px;
 }
-.navbar-light .navbar-brand{
-	color: white;
+a {
+color: white!important;
+oacity: 1!important;
 }
-.navbar-light .navbar-nav .nav-link {
-	color: white;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 14px;
-}
-.navbar {
-	background-color:#0000005e;
-
-}
-
 .navbar-nav{
 	width: 100%;
   text-align: center;
@@ -58,15 +26,11 @@ video {
 	text-align: left;
 }
 .navbar-nav li:hover{
-	color: white;
-	background-color: black;
+	box-shadow: 0px 0px 0px 2px white inset;
 }
-
-.navbar-toggler {
-	border-color: white;
+.navbar-dark .navbar-toggler-icon {
+	opacity: 1!important;
 }
-
-
 header {
 	position: relative;
 	background-color: black;
@@ -95,16 +59,7 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-header .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	opacity: 0.5;
-	z-index: 1;
+	text-align: center;
 }
 
 .mb-5, .my-5 {
@@ -113,4 +68,10 @@ header .overlay {
 
 .w-100{
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .h-100 img{
+    max-width: 300px;
+  }
 }
