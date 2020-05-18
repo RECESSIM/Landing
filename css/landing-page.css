@@ -61,15 +61,12 @@ header .container {
   justify-content: center;
 	text-align: center;
 }
-
 .mb-5, .my-5 {
   margin-bottom:0!important;
 }
-
 .w-100{
     text-align: center;
 }
-
 @media only screen and (max-width: 600px) {
   .h-100 img{
     max-width: 300px;
