@@ -1,10 +1,10 @@
 const videosList = [
   {
-    src: 'https://github.com/RECESSIM/Landing/blob/gh-pages/img/ShortLoop2.mp4?raw=true',
+    src: 'https://github.com/RECESSIM/Landing/blob/master/img/ShortLoop2.mp4?raw=true',
     type: 'video/mp4',
   },
   {
-    src: 'https://github.com/RECESSIM/Landing/blob/gh-pages/img/ShortLoop3.mp4?raw=true',
+    src: 'https://github.com/RECESSIM/Landing/blob/master/img/ShortLoop3.mp4?raw=true',
     type: 'video/mp4',
   }
 ];
