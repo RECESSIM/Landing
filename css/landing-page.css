@@ -1,20 +1,21 @@
 /*!* Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)* Copyright 2013-2019 Start Bootstrap* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)*/
 body {
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Nunito', sans-serif;
   background-color: black!important;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 700;
+font-family: 'Nunito', sans-serif;
+	font-weight: 300;
 }
-
 video {
   width: 800px;
   height: 600px;
+  opacity: 0.7;
 }
 a {
 color: white!important;
-oacity: 1!important;
+letter-spacing: 1px;
+font-size: 15px;
 }
 .navbar-nav{
 	width: 100%;
@@ -23,13 +24,20 @@ oacity: 1!important;
 .navbar-nav li{
 	padding-left: 15px;
 	padding-right: 15px;
+	margin-bottom: 15px;
 	text-align: left;
 }
-.navbar-nav li:hover{
-	box-shadow: 0px 0px 0px 2px white inset;
+.navbar-expand-lg .navbar-nav .nav-link {
+padding: .2rem;
+}
+.navbar-nav li:hover a{
+box-shadow: 0 4px 2px -2px red;
 }
 .navbar-dark .navbar-toggler-icon {
 	opacity: 1!important;
+}
+.navbar-dark .navbar-toggler {
+	border-color: white;
 }
 header {
 	position: relative;
@@ -71,4 +79,10 @@ header .container {
   .h-100 img{
     max-width: 300px;
   }
+	.navbar-nav li {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		padding-top: 10px;
+	}
 }
