@@ -22,6 +22,10 @@ font-size: 13px;
 	width: 100%;
   text-align: center;
 }
+.headline{
+	margin-top: 23px;
+	font-size: 18px;
+}
 .navbar-nav li{
 	padding-left: 15px;
 	padding-right: 15px;
