@@ -89,10 +89,11 @@ header .container {
   .h-100 img{
     max-width: 300px;
   }
-	.navbar-nav li {
-		padding-left: 0;
-	}
-	.navbar-nav {
-		padding-top: 10px;
-	}
+  .navbar-nav li {
+    padding-left: 0;
+    -webkit-tap-highlight-color: red;
+  }
+  .navbar-nav {
+    padding-top: 10px;
+  }
 }
