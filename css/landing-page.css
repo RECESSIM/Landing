@@ -36,7 +36,7 @@ font-size: 13px;
 padding: .2rem;
 }
 .navbar-nav li:hover a{
-box-shadow: 0 4px 2px -2px red;
+
 }
 .navbar-dark .navbar-toggler-icon {
 	opacity: 1!important;
@@ -79,6 +79,11 @@ header .container {
 }
 .w-100{
     text-align: center;
+}
+@media only screen and (min-width: 600px) {
+	.navbar-nav li:hover a{
+	box-shadow: 0 4px 2px -2px red;
+	}
 }
 @media only screen and (max-width: 600px) {
   .h-100 img{
